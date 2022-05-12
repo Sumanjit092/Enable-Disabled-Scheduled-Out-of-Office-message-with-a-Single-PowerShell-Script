@@ -1,4 +1,4 @@
-# Enable-Disabled-Scheduled-Out-of-Office-message-with-a-Single-PowerShell-Script #
+# Enable Disabled Scheduled Out of Office message with a Single PowerShell Script #
 
 This script will provide you the capability to enable or schedule or disable Auto-reply message or Out of Office message.
 
