@@ -51,14 +51,3 @@ Errors encountered during execution are logged to C:\Logs\GroupCreationErrorLog.
 Creating Microsoft 365 Groups and Teams affects your organization's collaboration environment. Ensure you have the necessary permissions and understanding before running this script.
 Review the group and team settings after creation to ensure they align with your organization's policies and requirements.
 Use this script at your own risk. It comes with no warranties, whether express or implied.
-
-# Author
-Sumanjit Pan
-
-# Version History
-1.0: Initial release
-1.1: Added install and import module function
-1.2: Added optional Teams integration, Removal of partially created Group and validation set in parameters
-
-# First Publish Date
-24th Jan, 2021
