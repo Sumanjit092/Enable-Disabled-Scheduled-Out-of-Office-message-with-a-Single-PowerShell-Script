@@ -7,11 +7,13 @@ Creates a Microsoft 365 Group with specified attributes.
 Optionally creates a corresponding Microsoft Team.
 Includes error handling and logging mechanisms.
 Checks and installs required Microsoft Exchange Online and Microsoft Teams modules.
-Requirements
+
+# Requirements
 PowerShell 5.1 or later.
 Administrative permissions for Microsoft 365.
 Internet connectivity.
-Parameters
+
+# Parameters
 Display: The display name of the group. (Mandatory)
 EmailAddress: The primary email address for the group. (Mandatory)
 Owners: The owners of the group. (Mandatory)
@@ -44,7 +46,8 @@ Removes the service account from the group.
 Optionally creates a Microsoft Team for the group.
 Error Handling: Logs any errors and attempts to clean up partially created groups.
 Cleanup: Removes PowerShell sessions.
-Error Logging
+
+# Error Logging
 Errors encountered during execution are logged to C:\Logs\GroupCreationErrorLog.txt with timestamps for troubleshooting.
 
 # Important Notes
