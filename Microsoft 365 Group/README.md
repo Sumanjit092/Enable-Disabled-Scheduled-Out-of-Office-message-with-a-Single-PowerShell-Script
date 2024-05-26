@@ -38,13 +38,16 @@ CheckInternet: Verifies internet connectivity.
 CheckMSExchange: Ensures the Microsoft Exchange Online Management module is installed and imported.
 CheckMSTeams: Ensures the Microsoft Teams module is installed and imported.
 Connect-Modules: Connects to Exchange Online and Microsoft Teams using a service account.
+
 Main Logic:
 Checks if the group or email address already exists.
 Creates the Microsoft 365 Group.
 Adds members and owners to the group.
 Removes the service account from the group.
 Optionally creates a Microsoft Team for the group.
+
 Error Handling: Logs any errors and attempts to clean up partially created groups.
+
 Cleanup: Removes PowerShell sessions.
 
 # Error Logging
